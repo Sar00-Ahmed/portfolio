@@ -1,1 +1,35 @@
+:root{
+  --main : #f7c5cc;
+  --accent : #00d7be;
+  --darkermain: #B6465F;
+  --light: #FBF2F4;
+  --dark: #3A2E39;
+
+}
+
+@font-face {
+  font-family: 'HeyTiny';
+  src: url("assets/fonts/hey-tiny-font/HeyTinyDemoBold-JR4PM.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Rome';
+  src: url(assets/fonts/a-day-in-rome-font/ADayInRome-1GA8M.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'rattudy';
+  src: url("assets/fonts/rattudiy-trial/Rattudiy\ Trial.ttf") format("truetype");
+}
+
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: var(--main);
+  color: var(--dark);
+  font-family:serif;
+  margin: 0;
+  padding:  2rem 5rem 0 5rem;
+
+
+}
+

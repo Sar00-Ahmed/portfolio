@@ -1,0 +1,8 @@
+<nav class="nav-bar">
+    <div id="Logo"> Su_ </div>
+    <div class="nav-items">
+    @for (item of navItems; track $index) {
+      <a [routerLink] = "item.link" >{{item.title}}</a>
+    }
+    </div>
+</nav>

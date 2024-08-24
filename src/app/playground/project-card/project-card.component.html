@@ -1,0 +1,10 @@
+<div class="project-card">
+  <div class="project-info">
+    <div>
+      <h3>{{index}} / {{project.title}}</h3>
+      <p [innerHTML]="project.description"></p>
+    </div>
+    <button><a [href]="project.link">explore ↗</a></button>
+  </div>
+  <img [src]="project.image" alt="project image" />
+</div>
