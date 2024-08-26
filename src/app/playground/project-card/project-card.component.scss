@@ -12,10 +12,6 @@
 .project-card img{
   width: 800px;
   border-radius: 20px;
-  box-shadow: 0 10px 10px 0 var(--light);
-  &:hover{
-    box-shadow: 0 10px 10px 0 #3405181f;
-  }
 }
 .project-info{
   display: flex;
@@ -24,19 +20,7 @@
   align-items:flex-start;
 }
 
-button{
 
-  background-color: var(--accent);
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: bold;
-  &:hover{
-    background-color: var(--dark);
-  }
-}
 
 button a{
   text-decoration: none;

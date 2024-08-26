@@ -1,0 +1,22 @@
+img{
+  width: 450px;
+}
+
+.hero-section{
+  padding: 5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+h1{
+  font-size: 3rem;
+  font-family: 'Rome';
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

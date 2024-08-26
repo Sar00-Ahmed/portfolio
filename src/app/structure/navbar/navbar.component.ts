@@ -12,9 +12,9 @@ import { RouterModule } from '@angular/router';
 
 export class NavbarComponent {
   navItems: navItem[] = [
-    { title: 'Home', link: '/home' },
+    { title: 'Home', link: 'home' },
     { title: 'About', link: '/about' },
-    { title: 'playground', link: '/playground'},
+    { title: 'playground', link: 'playground'},
     { title: 'Contact', link: '/contact' }
   ];
 

@@ -1,6 +1,6 @@
 :root{
-  --main : #f7c5cc;
-  --accent : #00d7be;
+  --main : #d7cdc0;
+  --accent : #28a9a5;
   --darkermain: #B6465F;
   --light: #FBF2F4;
   --dark: #3A2E39;
@@ -22,6 +22,8 @@
   src: url("assets/fonts/rattudiy-trial/Rattudiy\ Trial.ttf") format("truetype");
 }
 
+
+
 /* You can add global styles to this file, and also import other style files */
 body{
   background-color: var(--main);
@@ -33,3 +35,28 @@ body{
 
 }
 
+
+button{
+
+  background-color: var(--accent);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--light);
+  font-family: 'Rome';
+  &:hover{
+    background-color: var(--dark);
+  }
+}
+
+img{
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 0 var(--light);
+  &:hover{
+    box-shadow: 0 10px 10px 0 #3405181f;
+  }
+}

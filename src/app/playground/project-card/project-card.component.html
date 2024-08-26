@@ -1,7 +1,7 @@
 <div class="project-card">
   <div class="project-info">
     <div>
-      <h3>{{index}} / {{project.title}}</h3>
+      <h3>{{index | number: "2.0-0"}} / {{project.title}}</h3>
       <p [innerHTML]="project.description"></p>
     </div>
     <button><a [href]="project.link">explore ↗</a></button>
